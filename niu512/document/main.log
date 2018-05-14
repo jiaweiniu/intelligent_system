@@ -1,0 +1,708 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2017.10.2)  2 OCT 2017 12:51
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex -pv
+(./main.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 11 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/platex/base/jarticle.cls
+
+! LaTeX Error: This file needs format `pLaTeX2e'
+               but this is `LaTeX2e'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \NeedsTeXFormat{pLaTeX2e}
+                              
+? quit()
+OK, entering \batchmode...
+) (./settings.tex
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count79
+\Gm@cntv=\count80
+\c@Gm@tempcnt=\count81
+\Gm@bindingoffset=\dimen102
+\Gm@wd@mp=\dimen103
+\Gm@odd@mp=\dimen104
+\Gm@even@mp=\dimen105
+\Gm@layoutwidth=\dimen106
+\Gm@layoutheight=\dimen107
+\Gm@layouthoffset=\dimen108
+\Gm@layoutvoffset=\dimen109
+\Gm@dimlist=\toks15
+
+! Package geometry Error: \paperwidth (0.0pt) too short.
+
+See the geometry package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.995 \Gm@process
+                 
+Set a paper type (e.g., `a4paper').
+
+
+! Package geometry Error: \paperheight (0.0pt) too short.
+
+See the geometry package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.995 \Gm@process
+                 
+Set a paper type (e.g., `a4paper').
+
+
+Package geometry Warning: `width' results in NEGATIVE (-113.811pt).
+    `lmargin' or `rmargin' should be shortened in length.
+
+
+Package geometry Warning: `height' results in NEGATIVE (-113.811pt).
+    `tmargin' or `bmargin' should be shortened in length.
+
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip41
+For additional information on amsmath, use the `?' option.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen110
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen111
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count82
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count83
+\leftroot@=\count84
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count85
+\DOTSCASE@=\count86
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen112
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count87
+\c@MaxMatrixCols=\count88
+\dotsspace@=\muskip10
+\c@parentequation=\count89
+\dspbrk@lvl=\count90
+\tag@help=\toks17
+\row@=\count91
+\column@=\count92
+\maxfields@=\count93
+\andhelp@=\toks18
+\eqnshift@=\dimen113
+\alignsep@=\dimen114
+\tagshift@=\dimen115
+\tagwidth@=\dimen116
+\totwidth@=\dimen117
+\lineht@=\dimen118
+\@envbody=\toks19
+\multlinegap=\skip42
+\multlinetaggap=\skip43
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/eucal.sty
+Package: eucal 2009/06/22 v3.00 Euler Script fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
+(/usr/share/texlive/texmf-dist/tex/platex/base/ascmac.sty
+(/usr/share/texlive/texmf-dist/tex/platex/base/tascmac.sty
+\@savetbaselineshift=\dimen119
+\@saveybaselineshift=\dimen120
+\scb@x=\box28
+\scscb@x=\box29
+\@bw=\dimen121
+\@nbox=\box30
+\@nbody=\box31
+\@scw=\dimen122
+\@itemh=\dimen123
+\@iboxpos=\toks21
+\@iboxstr=\box32
+\@bwsp=\box33
+\@@bwsp=\box34
+\@bcal=\count94
+\shaderule=\dimen124
+))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen125
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks22
+)
+(/usr/share/texlive/texmf-dist/tex/latex/cases/cases.sty
+Package: cases 2002/05/02 ver 2.5 
+) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen126
+\captionmargin@=\dimen127
+\captionwidth=\dimen128
+\caption@tempdima=\dimen129
+\caption@indent=\dimen130
+\caption@parindent=\dimen131
+\caption@hangindent=\dimen132
+\abovecaptionskip=\skip44
+\belowcaptionskip=\skip45
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+\c@KVtest=\count95
+\sf@farskip=\skip46
+\sf@captopadj=\dimen133
+\sf@capskip=\skip47
+\sf@nearskip=\skip48
+\c@subfigure=\count96
+
+! LaTeX Error: No counter 'figure' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\c@subfigure@save=\count97
+! Missing \endcsname inserted.
+<to be read again> 
+                   \ext@figure 
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+! Extra \endcsname.
+\@ifundefined ...dafter \ifx \csname #1\endcsname 
+                                                  \relax \expandafter \@firs...
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \ext@figure 
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+! Extra \endcsname.
+\newcounter ...ifdefinable \csname c@#1\endcsname 
+                                                  {\@definecounter {#1}}\@if...
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \ext@figure 
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+\c@=\count98
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+! Extra \endcsname.
+\@definecounter ...ewcount \csname c@#1\endcsname 
+                                                  \setcounter {#1}\z@ \globa...
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \ext@figure 
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \ext@figure 
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \ext@figure 
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+! Extra \endcsname.
+<argument> ...xt@figure\endcsname depth\endcsname 
+                                                  \z@ \relax 
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \ext@figure 
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+! Extra \endcsname.
+\@definecounter ...r \let \csname cl@#1\endcsname 
+                                                  \@empty \@addtoreset {#1}{...
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \ext@figure 
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+! Extra \endcsname.
+\@definecounter ...er \let \csname p@#1\endcsname 
+                                                  \@empty \expandafter \gdef...
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \ext@figure 
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \ext@figure 
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \ext@figure 
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \ext@figure 
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+! Extra \endcsname.
+<argument> ...xt@figure\endcsname depth\endcsname 
+                                                  \@ne \relax 
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+Missing character: There is no ^^A in font nullfont!
+! Missing \endcsname inserted.
+<to be read again> 
+                   \ext@figure 
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \ext@figure 
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Use of \the doesn't match its definition.
+\caption@ifatletter ->\ifnum \the \catcode 
+                                           `\@ =11 \expandafter \@firstoftwo...
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \the doesn't match its definition.
+<argument> ...lineno\endcsname {\the \inputlineno 
+                                                  }
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \the doesn't match its definition.
+<write> ...=\string \count \the \allocationnumber 
+                                                  
+l.299 ...efined{c@subtable}{\newsubfloat{table}}{}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+\c@subtable=\count
+
+! LaTeX Error: No counter 'table' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.299 ...efined{c@subtable}{\newsubfloat{table}}{}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Use of \the doesn't match its definition.
+<write> ...=\string \count \the \allocationnumber 
+                                                  
+l.299 ...efined{c@subtable}{\newsubfloat{table}}{}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+\c@subtable@save=\count
+! Missing \endcsname inserted.
+<to be read again> 
+                   \ext@table 
+l.299 ...efined{c@subtable}{\newsubfloat{table}}{}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \ext@table 
+l.299 ...efined{c@subtable}{\newsubfloat{table}}{}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \ext@table 
+l.299 ...efined{c@subtable}{\newsubfloat{table}}{}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Use of \the doesn't match its definition.
+\caption@ifatletter ->\ifnum \the \catcode 
+                                           `\@ =11 \expandafter \@firstoftwo...
+l.299 ...efined{c@subtable}{\newsubfloat{table}}{}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \the doesn't match its definition.
+\g@addto@macro ...fter {#1#2}\xdef #1{\the \toks@ 
+                                                  }\endgroup 
+l.299 ...efined{c@subtable}{\newsubfloat{table}}{}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \the doesn't match its definition.
+<argument> ...lineno\endcsname {\the \inputlineno 
+                                                  }
+l.299 ...efined{c@subtable}{\newsubfloat{table}}{}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \the doesn't match its definition.
+\g@addto@macro ...fter {#1#2}\xdef #1{\the \toks@ 
+                                                  }\endgroup 
+l.316 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \the doesn't match its definition.
+<write> ... =\string \skip \the \allocationnumber 
+                                                  
+l.317 \newskip\sf@top
+                     
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+\sf@top=\skip
+! Use of \the doesn't match its definition.
+<write> ... =\string \skip \the \allocationnumber 
+                                                  
+l.318 \newskip\sf@bottom
+                        
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+\sf@bottom=\skip
+! Use of \the doesn't match its definition.
+\g@addto@macro ...fter {#1#2}\xdef #1{\the \toks@ 
+                                                  }\endgroup 
+l.508   \let\sf@addcontentsline=\addcontentsline}
+                                                 
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 298--516
+[]
+ []
+
+! Use of \the doesn't match its definition.
+\g@addto@macro ...fter {#1#2}\xdef #1{\the \toks@ 
+                                                  }\endgroup 
+l.590     \fi}}
+               
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \the doesn't match its definition.
+\g@addto@macro ...fter {#1#2}\xdef #1{\the \toks@ 
+                                                  }\endgroup 
+l.598 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \the doesn't match its definition.
+\g@addto@macro ...fter {#1#2}\xdef #1{\the \toks@ 
+                                                  }\endgroup 
+l.677 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+)
+
+! LaTeX Error: Unknown option `caption=false' for package `subfig'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \usepackage
+                [ruled,vlined]{algorithm2e}
+The option `caption=false' was not declared in package `subfig', perhaps you
+misspelled its name. Try typing  <return>  to proceed.
+
+! Use of \the doesn't match its definition.
+\@pushfilename ...ame }{\@currext }{\the \catcode 
+                                                  `\@}\@currnamestack }
+l.15 \usepackage
+                {setspace}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+! LaTeX Error: File `algorithm2e.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+ Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.15 \usepackage
+                {setspace}^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 2445 strings out of 494757
+ 34914 string characters out of 6175176
+ 87172 words of memory out of 5000000
+ 5788 multiletter control sequences out of 15000+600000
+ 4426 words of font info for 17 fonts, out of 8000000 for 9000
+ 80 hyphenation exceptions out of 8191
+ 38i,0n,38p,243b,76s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.

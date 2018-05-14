@@ -1,0 +1,157 @@
+%二段組tex
+%--------------------------------------------------------
+\documentclass[twocolumn,10pt]{jarticle}
+\setcounter{secnumdepth}{3}
+%----------------------------------------
+\input{settings.tex}
+%----------------------------------------
+\title{\vspace{-20truemm}
+{\normalsize \rightline{平成29年\ 5月\ 25日}}  %日付
+{\large 知的システム構成特論\\} %科目名
+{\large Data Structures and Algorithms, %本の名前
+Chapter 4 (pp.169-195)\\} %章番号とページ
+Stacks, Queues, and Recursion %タイトル
+\date{}
+\vspace{-2truemm}}
+%----------------------------------------
+\author{西田研究室 17344299 牛 佳偉} %番号氏名
+%--------------------------------------------------------
+\begin{document}
+\twocolumn[\maketitle]
+%--------------------------------------------------------
+%1章
+%--------------------------------------------------------
+\setcounter{section}{3}\section{\ Queues}
+%--------------------------------------------------------
+A Queue is a receptacle which can inserted and removed objects from the first-in first-out(FIFO) principle. Elements can insert in at any time, but cannot remove when the queue is empty. The elements come in the queue at the rear, as well as remove from the front.
+%--------------------------------------------------------
+\subsection{\ The Queue Abstract Data Type}
+%--------------------------------------------------------
+Initially, the queue abstract data type defines a container which keeps objects in a sequence. Element are inserted only need the first element in the queue.
+
+The queue abstract data type (ADT) as follows:
+
+enqueue(o): insert element o at the rear of the queue
+
+dequeue (o): remove from the queue the element at the front, an error happens when the queue is empty
+
+size (): return the number of the elements in the queue
+
+isEmpty (): if the queue is empty, it will return a Boolean
+
+first (): only return the front of element in the queue
+%--------------------------------------------------------
+\subsection{\ A simple Array-Based Implementation}
+%--------------------------------------------------------
+The main problem with this is deciding how to keep track of the front and rear of the queue. One solution is that using the stack implementation, initially, let the Q(0) be the front of the queue, then add elements from here, it is an inefficient solution but it lets us move all the elements forward one array cell every time when we perform a dequeue() function. Another solution if we want to achieve constant time for each queue is that we define two variables f and r, when removing the element from the front of the queue, we can increment f to index the next cell, as well as when adding an element, we can increment r to index the next available cell in Q.
+
+Since we cannot tell the difference between a full queue and an empty one, we have to introduced a new exception, named QueueFullException, meaning that no more elements can be inserted in the queue.
+
+The array-base stack implementation has a disadvantage that we automatically set the capacity of the queue to be some number like N, but in real application, we may need more than or less than N, if we can estimate the number which will be in the queue, then the array-based will be efficient.
+%--------------------------------------------------------
+\subsection{\ Memory Allocation in C++}
+%--------------------------------------------------------
+Memory can be allocated by using the new operator, built in C++.
+%--------------------------------------------------------
+%2章
+%--------------------------------------------------------
+\section{\ Linked Lists}
+%--------------------------------------------------------
+The array-base stack has a drawback that it has to decide the size N at the first time, but in this section, single linked list do not have this disadvantage.  
+%--------------------------------------------------------
+\subsection{\ Singly Linked Lists}
+%--------------------------------------------------------
+A linked list is a collection of nodes that form a linear ordering together. Each node has a data number called element as well as a pointer called next. 
+
+Link hopping is that moving from one node to another uses a next pointer.
+
+The first and the last node are called head and tail, and tail has a null next pointer, indicating the end of the list.
+
+The advantage of a singly linked list is that it does not have a predetermined fixed size and uses space proportional to the number of its elements.
+
+Each node of a singly linked list contains of two fields which the element value associated with the node as well as a pointer to the next node in the linked list. Additionally, the linked list class itself maintains a pointer to the head of the list.
+
+Using a singly linked list, we can easily insert or delete elements at the head of the list. Usually we can also insert an element both at the head and the tail of the list.
+%--------------------------------------------------------
+\subsection{\ Implementing a Stack with a Singly Linked List}
+%--------------------------------------------------------
+Basically, the top of the stack can be either at the head or the tail of the list. Since we can only insert and delete elements at the head, so it is more efficient to have the top of the stack at the head.
+
+Housekeeping Functions
+
+Since the LinkedClass allocates memory, we have to take care of our memory management through defining a copy constructor, assignment operator, a destructor. Initially, we define two function called removeAll() and copyFrom(), which are very useful for copying and deleting. 
+%--------------------------------------------------------
+\subsection{\ Implementing a Queue with a Singly Linked List}
+%--------------------------------------------------------
+It is efficient to choose the front of the queue to be at the head of the linked list and the rear of the queue to be at the tail of the linked list. The structure of the linkedQueue is similar to the structure of the linkedStack, except that we need to pursue pointers to both the head and the tail of the linked list. The functions in the singly linked list queue are more complicated so we need to pay attention to some cases, when the queue is empty before insert an element or the queue becomes empty after delete an element.
+%--------------------------------------------------------
+%--------------------------------------------------------
+%3章
+%--------------------------------------------------------
+\section{\ Double-Ended Queues}
+A Doubled-Ended Queue is able to insertion and deletion at both the front and the rear of the queue.
+%--------------------------------------------------------
+\subsection{\ The Deque Abstract Data Type}
+%--------------------------------------------------------
+insertFirst(o): insert an element o at the beginning
+
+insertLast(o): insert an element at the end 
+
+removeFirst(): remove the first object 
+
+removeLast(): remove the last object
+
+first(): return the first object 
+
+last(): return the last object
+
+size(): return the number of the DQ
+
+isEmpty(): determine whether DQ is empty
+%--------------------------------------------------------
+\subsection{\ Implementing a Duque with a Doubly Linked List}
+%--------------------------------------------------------
+It is more efficient to use the Doubly Linked List than Singly linked list since the Duque can insertion and deletion at both ends and of the list. A node in doubly linked list owns two pointers- a next link which points to the next node and a prev link which points to the previous node. In doubly linked list, we will add two sentinel nodes at the beginning and the ending of the list,which called the header and trailer. These node do not store elements and that are not counted in the size() function. The advantage of these sentinels in that they simplify the code for insertion and deletion operation.
+%--------------------------------------------------------
+\subsection{\ The Adapter Design Pattern}
+%-------------------------------
+\begin{table}[H]
+\caption{Implementing a stack with a Duque.}
+\centering
+\vspace{4mm}
+  \begin{tabular}{|l|c|} \hline
+    Stack Method & Deque Implementation \\ \hline \hline
+    size() & size()   \\
+    isEmpty() & isEmpty()  \\
+    top() & first()  \\ 
+    push(o) & insertFirst(o) \\
+    pop() & removeFirst()  \\    \hline
+  \end{tabular}
+\label{tb:gyudon}
+\end{table}
+%--------------------------------------------------------
+%-------------------------------
+\begin{table}[H]
+\caption{Results of grasp planning.}
+\centering
+\vspace{4mm}
+  \begin{tabular}{|l|c|} \hline
+    Queue Method & Deque Implementation \\ \hline \hline
+    size() & size()   \\
+    isEmpty() & isEmpty()  \\
+    front() & first()  \\ 
+    enqueue(o) & insertLast(o) \\
+    dequeue() & removeFirst()  \\    \hline
+  \end{tabular}
+\label{tb:gyudon}
+\end{table}
+%--------------------------------------------------------
+%4章
+%--------------------------------------------------------
+\section{\ Sample Case Study Application}
+%--------------------------------------------------------
+we introduce a stack application used to solve the financial analysis problem. 
+%-------------------------------
+\end{document}
+
+  
